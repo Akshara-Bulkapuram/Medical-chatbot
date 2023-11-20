@@ -1,0 +1,8 @@
+sentence-transformers
+spacy
+elasticsearch
+flask
+transformers
+torch
+fuzzywuzzy
+beautifulsoup4
