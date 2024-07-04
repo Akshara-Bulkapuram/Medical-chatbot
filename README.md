@@ -35,6 +35,7 @@ D. Web Scraping
 In scenarios where the calculated similarity falls below the established threshold, the QA MedBot initiates web scraping. The top 10 search results related to the user’s query are scraped to extract additional information. This external information serves to enrich the dataset and enhance the MedBot’s knowledge base. The scraped data undergoes preprocessing to align with the QA system’s requirements.
 
 E. Answer Retrieval
+
 for faster retrieval we have used elasticsearch engine. elasticsearch creates indexes of questions in the database and their embeddings. when a query question is input the engine searches for the most similar sentence embedding in the indexes to the sentence embedding of query question. after it finds such an index it retrieves the answer present at that index as the response to user’s query.
 
 ## RESULTS
