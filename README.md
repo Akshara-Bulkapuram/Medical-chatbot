@@ -1,6 +1,6 @@
-# Medical-FAQ-chatbot
+# Medical-chatbot
 
-# Building a Medical FAQ chatbot using SBERT model. Dataset used was MEDQUAD
+# Building a Medical chatbot using SBERT model. Dataset used was MEDQUAD
 
 ## short description
 We have built this as our NLP course project. The Medquad dataset contains 47k Question-Context-Answer Mapping. we utilised an Sentence transformer BERT model and used it on our data to fetch the Most Accurate answer from the database given a Query. It works by creating sentence embedding for the Query question and checks the similarity for All the Questions in the database and get the answer of the most similar question. Elasticsearch based indexing is used for optimizing the database fetching. later we extended our project by utiliseing ROBERTA and MEDBERT sentence transformer models. Elasticsearch was used for indexing and faster retrieval.
